@@ -1,6 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./output.css";
+import { Box } from "@chakra-ui/react";
 
 function App() {
 	const [count, setCount] = useState(0);
@@ -16,6 +17,7 @@ function App() {
 				</a>
 			</div>
 			<p className="bg-blue-400 text-center text-6xl">Hello world</p>
+			<Box fontSize={"xl"}>Hello world</Box>
 		</div>
 	);
 }
